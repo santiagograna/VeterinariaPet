@@ -4,7 +4,7 @@ session_start();
 include_once "vista/modulos/cabecera.php";
 
 if (isset($_SESSION["usuario"])) {
-    $rolHumano = $_SESSION["rol"];
+    $rolPruebaError = $_SESSION["rol"];
 
 
     include_once "vista/modulos/header.php";
